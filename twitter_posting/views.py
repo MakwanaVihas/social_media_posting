@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
 from rest_framework.response import Response
-from rest_framework import status
+from rest_framework import status,renderers
 from .serializers import FileSchedularModelSerializer
 from . models import FileSchedularModel
 
@@ -20,6 +20,7 @@ import oauth2 as oauth
 import datetime
 import pytz
 from requests_oauthlib import OAuth1
+from rest_framework.decorators import action
 
 
 request_token_url = 'https://api.twitter.com/oauth/request_token'
@@ -35,8 +36,9 @@ def login(request):
     consumer = oauth.Consumer(consumer_key,consumer_secret)
     client = oauth.Client(consumer)
     esp, content = client.request(request_token_url, "POST", body=urllib.parse.urlencode({
-                                   "oauth_callback": "https://127.0.0.1:8000/twitter/logged_in"}))
-    # return HttpResponse(content=content)
+                                   "oauth_callback": request.build_absolute_uri(reverse("logged_in"))}))
+    # print(request.build_absolute_uri(reverse("logged_in")))
+    # return HttpResponse(content)
     request_token = dict(urllib.parse.parse_qsl(content))
     oauth_token = request_token[b'oauth_token'].decode('utf-8')
     oauth_token_secret = request_token[b'oauth_token_secret'].decode('utf-8')
@@ -45,6 +47,7 @@ def login(request):
     return HttpResponseRedirect(authorize_url+"?oauth_token="+oauth_token)
 
 def logged_in(request):
+
 
     oauth_token = request.GET["oauth_token"]
     oauth_verifier = request.GET["oauth_verifier"]
@@ -64,6 +67,7 @@ def logged_in(request):
     real_oauth_token_secret = access_token[b'oauth_token_secret'].decode(
         'utf-8')
 
+
     request.session["real_oauth_token"] = real_oauth_token
     request.session["real_oauth_token_secret"] = real_oauth_token_secret
     request.session["oauth_token"] = oauth_token
@@ -72,7 +76,20 @@ def logged_in(request):
     return HttpResponseRedirect(reverse("upload"))
 
 
+def deactivate(request):
+    url = "https://api.twitter.com/1.1/oauth/invalidate_token"
+    consumer = oauth.Consumer(consumer_key, consumer_secret)
+    auth = oauth.Token(request.session["real_oauth_token"],request.session["real_oauth_token_secret"])
+    client = oauth.Client(consumer, auth)
+    resp, con = client.request(url,"POST")
 
+    if "real_oauth_token" in request.session:
+        del request.session["real_oauth_token"]
+        del request.session["real_oauth_token_secret"]
+        del request.session["oauth_verifier"]
+
+
+    return HttpResponseRedirect(reverse("starting_page"))
 
 @csrf_exempt
 def upload_media(request):
@@ -127,8 +144,16 @@ class FileSchedularSerializerView(APIView):
 class FileSchedularViewSet(ModelViewSet):
     serializer_class = FileSchedularModelSerializer
     queryset = FileSchedularModel.objects.all()
+
+
+    @action(detail=True, renderer_classes=[renderers.StaticHTMLRenderer])
+    def highlight(self, request, *args, **kwargs):
+        snippet = self.get_object()
+        return Response(snippet.highlighted)
+
+
     def create(self, request):
-        # 2020-03-26T19:00:00+05:30
+
         serializer = FileSchedularModelSerializer(data=request.data)
         if serializer.is_valid():
             # print(serializer.data['schedule_time'])

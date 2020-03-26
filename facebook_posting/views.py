@@ -6,8 +6,11 @@ from django.conf import settings
 import datetime
 from .tasks import upload_media_to_facebook
 from .forms import FBFileSchedularForm
-
-
+from rest_framework import status, renderers
+from rest_framework.viewsets import ModelViewSet
+from .serializers import FBFileSchedularModelSerializer
+from .models import FBFileSchedularModel
+from rest_framework.decorators import action
 
 
 perms = ["manage_pages","publish_pages"]
@@ -41,7 +44,6 @@ def upload(request):
             delta = datetime.datetime.utcnow()+delta
 
             fs = form.cleaned_data['file_field']
-            fs.name = fs.name.replace(" ","_")
             url_ = None if form.cleaned_data['url_field']=="" else form.cleaned_data['url_field']
             post_ = None if form.cleaned_data['text_field']=="" else form.cleaned_data['text_field']
             page = request.session["id_dict"][request.POST["page_id"]]
@@ -51,6 +53,7 @@ def upload(request):
             if not fs:
                 upload_media_to_facebook.apply_async(args=(page_token,page,post_,url_,None),eta=delta)
             else:
+                fs.name = fs.name.replace(" ","_")
                 upload_media_to_facebook.apply_async(args=(page_token,page,post_,url_,settings.MEDIA_URL+"facebook/"+fs.name),eta=delta)
 
         else:
@@ -79,4 +82,36 @@ def upload(request):
         form = FBFileSchedularForm()
         return render(request,"form_fb.html",{"form":form,"id_names":list(id_names.keys())})
 
-    return render(request,"form_fb.html",{"form":form,"id_names":list(id_names.keys())})
+    return render(request,"form_fb.html",{"form":form,"id_names":list(request.session["id_dict"].keys())})
+
+
+class FBModelViewSet(ModelViewSet):
+    serializer_class = FBFileSchedularModelSerializer
+    queryset = FBFileSchedularModel.objects.all()
+
+    @action(detail=True, renderer_classes=[renderers.StaticHTMLRenderer])
+    def highlight(self, request, *args, **kwargs):
+        snippet = self.get_object()
+        return Response(snippet.highlighted)
+
+    def create(self,request):
+        serializer = FBFileSchedularModelSerializer(data=request.data)
+        if serializer.is_valid():
+            # print(serializer.data['schedule_time'])
+            time_ = serializer.data['schedule_time'].split("+")[0].replace("T"," ")
+            time_ = datetime.datetime.strptime(time_, "%Y-%m-%d %H:%M:%S")
+            delta = time_ - datetime.datetime.now()
+            delta = datetime.datetime.utcnow()+delta
+
+            fs = serializer.data['file_field']
+            url_ = None if serializer.data['url_field']=="" else serializer.data['url_field']
+            post_ = None if serializer.data['text_field']=="" else serializer.data['text_field']
+
+            page = request.session["id_dict"][request.POST["page_id"]]
+            page_token = request.session["token_dict"][str(page)]
+
+            if not fs:
+                upload_media_to_facebook.apply_async(args=(page_token,page,post_,url_,None),eta=delta)
+            else:
+                upload_media_to_facebook.apply_async(args=(page_token,page,post_,url_,settings.MEDIA_URL+"facebook/"+fs.name),eta=delta)
+        return super().create(request)

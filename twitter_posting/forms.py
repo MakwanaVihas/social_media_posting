@@ -15,6 +15,7 @@ class FileSchedularForm(forms.ModelForm):
         self.fields['text_field'].required = False
         self.fields['text_field'].widget = forms.Textarea(attrs={'style': "width:20%%;"})
 
+
     class Meta:
         model = FileSchedularModel
         fields = ["file_field","url_field","text_field"]
@@ -42,7 +43,8 @@ class FileSchedularForm(forms.ModelForm):
                 os.rename(settings.MEDIA_ROOT+"/documents/"+file_field.name,settings.MEDIA_ROOT+"/documents/"+getFilename(file_field.name)+".mp4")
                 cleaned_data["file_field"] = open(settings.MEDIA_ROOT+"/documents/"+getFilename(file_field.name)+".mp4","rb")
 
-            if not (file_field.name.endswith(".jpg") or file_field.name.endswith(".jpeg") or file_field.name.endswith(".png") or file_field.name.endswith(".mp4")):
+            if not (file_field.name.endswith(".jpg") or file_field.name.endswith(".jpeg") or file_field.name.endswith(".png") or file_field.name.endswith(".mp4")
+                    or file_field.name.endswith(".JPG") or file_field.name.endswith(".JPEG") or file_field.name.endswith(".PNG") or file_field.name.endswith(".MP4")):
                 error = "Valid formats are .jpg, .jpeg, .png, .mp4, .mov"
                 field = "file_field"
                 self.add_error(field,error)
