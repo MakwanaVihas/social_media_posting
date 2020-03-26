@@ -1,8 +1,8 @@
 ## Clone the repo:<br>
   ```bash
-  git clone https://github.com/MakwanaVihas/social_media_posting.git <br>
-  cd social_media_posting<br>
-  pip install -r requirements.txt<br>
+  git clone https://github.com/MakwanaVihas/social_media_posting.git 
+  cd social_media_posting
+  pip install -r requirements.txt
   ```
 
 ## Running the app:<br>
