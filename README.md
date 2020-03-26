@@ -18,4 +18,14 @@
           celery -A social_media_posting worker --pool=eventlet -l info
           ```<br>
    - **MAKE SURE RUN BOTH THESE COMMANDS PARALLELLY**<br>
+   -  Then go to https://127.0.0.1:8000 and choose twitter and enter your account credentials and schedule a post.
+   -  **DO NOT TERMINATE OR CLOSE ANY TERMINAL WINDOWS**
+  
+**For Facebook**
+   - ```In facebook for using your developer account to allow login to other users your app needs to pass through App Review which takes 6-7 days. So for you can only schedule posts on your facebook pages only```
+   
+   -  Set you facebook developer account on https://developers.facebook.com/ and create an app.<br>
+   -  Get consumer key and consumer secret from you app's home page.<br>
+   -  Enter a product named Facebook Login in your app.
+   -  Enter https://127.0.0.1:8000/twitter/logged_in/ and https://127.0.0.1:8000/twitter/logged_in as callback in your app's home page. <br>   
       
