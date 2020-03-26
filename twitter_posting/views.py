@@ -27,8 +27,8 @@ request_token_url = 'https://api.twitter.com/oauth/request_token'
 access_token_url = 'https://api.twitter.com/oauth/access_token'
 authorize_url = 'https://api.twitter.com/oauth/authorize'
 
-consumer_key = "d1kNsEYaQ8gvjM13tTkLMWpjA"
-consumer_secret = "ixU5IBjYFMryzBiEHIvrfvcbTepTYZZESH8zTG36ou6l9InAvf"
+consumer_key = "YOUR_KEY"
+consumer_secret = "YOUR_SECRET"
 
 
 def login(request):
