@@ -21,11 +21,35 @@
    -  Then go to https://127.0.0.1:8000 and choose twitter and enter your account credentials and schedule a post.
    -  **DO NOT TERMINATE OR CLOSE ANY TERMINAL WINDOWS**
   
-**For Facebook**
-   - ```In facebook for using your developer account to allow login to other users your app needs to pass through App Review which takes 6-7 days. So for you can only schedule posts on your facebook pages only```
+### **For Facebook**
+   - ```In facebook, to use your developer account to login into other users your app needs to pass through App Review which takes 6-7 days. So for no you can only schedule posts on your facebook pages only```
    
    -  Set you facebook developer account on https://developers.facebook.com/ and create an app.<br>
    -  Get consumer key and consumer secret from you app's home page.<br>
    -  Enter a product named Facebook Login in your app.
-   -  Enter https://127.0.0.1:8000/twitter/logged_in/ and https://127.0.0.1:8000/twitter/logged_in as callback in your app's home page. <br>   
+   -  Enter https://127.0.0.1:8000/facebook/logged_in/ and https://127.0.0.1:8000/facebook/logged_in as callback in your app's home page. <br>   
+   -  Enter your key and secret in facebook_posting.views.<br>
+   -  For running django server locally go to cmd and type:<br>
+          ``` python manage.py runsslserver https://127.0.0.1:8000```<br> 
+   -  For celery open another cmd window and cd into social_media_posting and run:<br>
+          ```
+          celery -A social_media_posting worker --pool=eventlet -l info
+          ```<br>
+   - **MAKE SURE RUN BOTH THESE COMMANDS PARALLELLY**<br>
+   -  Then go to https://127.0.0.1:8000 and choose facebook and enter your account credentials and schedule a post.<br>
+   -  **DO NOT TERMINATE OR CLOSE ANY TERMINAL WINDOWS**<br>
+   
+   
+ ## Details about my django project.<br>
+   - All the requirements are mentioned in requirements.txt file.<br>
+   ### This django project contais three apps:<br>
+      - twitter_posting (for dealing with twitter scheduling)<br>
+      - facebook_posting (for dealing with facebook scheduling)<br>
+      - base (which prove a bridge to connect both the apps and make it look on single app)<br>
+   
+   
+ ### After starting the app locally and if you decide to use django-rest-fremework then go to https://127.0.0.1:8000/rest.<br>
       
+      
+   
+   
