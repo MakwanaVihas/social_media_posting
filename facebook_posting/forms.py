@@ -22,7 +22,7 @@ class FBFileSchedularForm(forms.ModelForm):
         labels = {
             'file_field': ('Add a file'),
             'url_field':('Add a url to attach to this post'),
-            'text_field':('Type raw post or tag someone')
+            'text_field':('Type raw post')
         }
 
     def clean(self):
