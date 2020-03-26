@@ -14,11 +14,11 @@ from rest_framework.decorators import action
 
 
 perms = ["manage_pages","publish_pages"]
-app_id = "2545738395649512"
+app_id = "YOUR_APP_ID"
 canvas_url = "https://127.0.0.1:8000/facebook/logged_in"
 
 def login(request):
-    graph = facebook.GraphAPI(access_token="2545738395649512")
+    graph = facebook.GraphAPI(access_token="YOUR_ACCESS_TOKEN")
     fb_login_url = graph.get_auth_url(app_id,canvas_url,perms)
     return HttpResponseRedirect(fb_login_url)
 
