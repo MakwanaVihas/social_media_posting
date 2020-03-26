@@ -1,7 +1,9 @@
 *Clone the repo:*
-  > git clone https://github.com/MakwanaVihas/social_media_posting.git <br>
-  > cd social_media_posting<br>
-  > pip install -r requirements.txt<br>
+  ```bash
+  git clone https://github.com/MakwanaVihas/social_media_posting.git <br>
+  cd social_media_posting<br>
+  pip install -r requirements.txt<br>
+  ```
 
 
 **For twitter:**<br>
