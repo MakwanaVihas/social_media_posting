@@ -42,13 +42,13 @@
    
  ## Details about my django project.<br>
    - All the requirements are mentioned in requirements.txt file.<br>
-   ### This django project contais three apps:<br>
+   ### This django project contains three apps:<br>
       - twitter_posting (for dealing with twitter scheduling)<br>
       - facebook_posting (for dealing with facebook scheduling)<br>
       - base (which prove a bridge to connect both the apps and make it look on single app)<br>
    
    
- ### After starting the app locally and if you decide to use django-rest-fremework then go to https://127.0.0.1:8000/rest.<br>
+ ###  If you decide to use django-rest-fremework then go to https://127.0.0.1:8000/rest after setting up the app locally.<br>
       
       
    
