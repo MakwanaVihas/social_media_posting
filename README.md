@@ -1,4 +1,4 @@
-# Clone the repo:<br>
+## Clone the repo:<br>
   ```bash
   git clone https://github.com/MakwanaVihas/social_media_posting.git <br>
   cd social_media_posting<br>
