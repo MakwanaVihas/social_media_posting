@@ -50,6 +50,6 @@
    
  ###  If you decide to use django-rest-fremework then go to https://127.0.0.1:8000/rest after setting up the app locally.<br>
       
-      
+ # MAKE SURE YOU RUN YOUR SERVER ON https://127.0.0.1:8000 locally and DON'T USE ANY OTHER PORT BECAUSE YOU HAVE ENETR VALID CALLBACK url IN YOU DEVELOPER ACCOUNT
    
    
