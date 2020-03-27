@@ -1,0 +1,55 @@
+2020-03-27 23:33:33,679 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:33:33,680 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:33:33,680 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 23:33:34,068 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 23:33:34,437 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 23:33:34,769 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 23:33:35,158 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 23:33:37,417 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 23:33:37,417 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for hello", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 23:33:37,417 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:33:37,417 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 23:33:37,418 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 23:33:37,418 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 23:33:37,418 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 23:33:52,826 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:33:52,826 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:33:52,835 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:33:52,836 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:33:52,836 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=84fb31dd-67b2-4a93-8602-5c5d345f9638
+- device_id=android-8e51abc100ef0e36
+2020-03-27 23:33:52,837 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:33:53,544 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:33:53,959 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:33:54,411 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:33:55,842 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:33:56,181 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-27 23:33:56,503 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-27 23:33:56,979 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-27 23:33:57,282 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-27 23:33:57,618 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-27 23:33:57,630 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 23:33:57,631 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:47:18,597 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:47:18,610 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:47:18,611 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:47:18,612 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:47:18,612 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=4b4bde44-66b8-4816-b54e-773b0a15e89f
+- device_id=android-8e51abc100ef0e36
+2020-03-27 23:47:18,613 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:47:19,177 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:47:22,724 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:47:22,733 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 23:47:22,734 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:47:26,591 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:47:26,600 - instabot version: 0.116.0 (bot) - INFO - Total requests: 33
+2020-03-27 23:47:26,600 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:47:26,601 - instabot version: 0.116.0 (bot) - INFO - Total requests: 33

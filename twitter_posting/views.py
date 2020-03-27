@@ -37,7 +37,7 @@ def login(request):
     client = oauth.Client(consumer)
     esp, content = client.request(request_token_url, "POST", body=urllib.parse.urlencode({
                                    "oauth_callback": request.build_absolute_uri(reverse("logged_in"))}))
-    # print(request.build_absolute_uri(reverse("logged_in")))
+    print(request.build_absolute_uri(reverse("logged_in")))
     # return HttpResponse(content)
     request_token = dict(urllib.parse.parse_qsl(content))
     oauth_token = request_token[b'oauth_token'].decode('utf-8')

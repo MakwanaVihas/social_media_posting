@@ -1,0 +1,91 @@
+2020-03-28 03:14:52,313 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-28 03:14:52,313 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-28 03:15:06,843 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 03:15:06,844 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 03:15:06,844 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=fd3cc5f2-19ae-429c-9895-363fa16e051e
+- device_id=android-8e51abc100ef0e36
+2020-03-28 03:15:06,844 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-28 03:15:07,626 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 03:15:08,049 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 03:15:08,058 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-28 03:15:08,058 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:15:08,459 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:15:18,397 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:15:40,273 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-28 03:15:40,570 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-28 03:15:40,571 - instabot version: 0.116.0 (bot_photo) - INFO - Photo 'media/instagram/FORM_1_copy.jpg' is uploaded.
+2020-03-28 03:19:07,856 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/logout/ returned response: <Response [200]>
+2020-03-28 03:19:07,856 - instabot version: 0.116.0 (bot) - INFO - Bot stopped. Worked: 6:36:05.968177
+2020-03-28 03:19:07,856 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:19:07,865 - instabot version: 0.116.0 (bot) - INFO - Total requests: 109
+2020-03-28 03:19:15,312 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 03:19:15,313 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 03:19:15,313 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=fd3cc5f2-19ae-429c-9895-363fa16e051e
+- device_id=android-8e51abc100ef0e36
+2020-03-28 03:19:15,313 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-28 03:19:15,739 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [403]>
+2020-03-28 03:19:15,740 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "user_has_logged_out", "logout_reason": 9, "status": "fail"}'
+2020-03-28 03:19:15,740 - instabot version: 0.116.0 (api) - ERROR - Request returns 403 error!
+2020-03-28 03:19:16,150 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [403]>
+2020-03-28 03:19:16,150 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "user_has_logged_out", "logout_reason": 9, "status": "fail"}'
+2020-03-28 03:19:16,150 - instabot version: 0.116.0 (api) - ERROR - Request returns 403 error!
+2020-03-28 03:19:16,159 - instabot version: 0.116.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2020-03-28 03:19:16,159 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 03:19:16,160 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 03:19:16,160 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=fd3cc5f2-19ae-429c-9895-363fa16e051e
+- device_id=android-8e51abc100ef0e36
+2020-03-28 03:19:16,160 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-28 03:19:16,560 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-28 03:19:16,969 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 03:19:17,339 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-28 03:19:17,726 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-28 03:19:19,429 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-03-28 03:19:19,429 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-28 03:19:19,429 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-03-28 03:19:19,786 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 03:19:20,119 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-28 03:19:20,655 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-8e51abc100ef0e36&token_hash=&custom_device_id=android-8e51abc100ef0e36&fetch_reason=token_expired returned response: <Response [200]>
+2020-03-28 03:19:20,986 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2020-03-28 03:19:21,884 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 03:19:22,496 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2020-03-28 03:19:22,811 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2020-03-28 03:19:23,475 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 03:19:24,550 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 03:19:24,957 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2020-03-28 03:19:25,401 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2020-03-28 03:19:25,738 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2020-03-28 03:19:26,158 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2020-03-28 03:19:26,470 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2020-03-28 03:19:27,251 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2020-03-28 03:19:27,634 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2020-03-28 03:19:29,872 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2020-03-28 03:19:30,282 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2020-03-28 03:19:30,692 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2020-03-28 03:19:31,210 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32170766699/info/ returned response: <Response [200]>
+2020-03-28 03:19:31,533 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-28 03:19:32,134 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2020-03-28 03:19:32,848 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2020-03-28 03:19:33,273 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=fd3cc5f2-19ae-429c-9895-363fa16e051e&include_fixed_destinations=true returned response: <Response [200]>
+2020-03-28 03:19:33,586 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2020-03-28 03:19:34,177 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2020-03-28 03:19:34,186 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:19:34,581 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:19:55,369 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:19:58,850 - instabot version: 0.116.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2020-03-28 03:19:58,851 - instabot version: 0.116.0 (bot_photo) - INFO - Photo 'media/instagram/FORM_1_copy.jpg.STORIES.jpg' is not uploaded.
+2020-03-28 03:20:34,999 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:20:35,000 - instabot version: 0.116.0 (bot) - INFO - Total requests: 111
+2020-03-28 03:20:35,000 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:20:35,001 - instabot version: 0.116.0 (bot) - INFO - Total requests: 111

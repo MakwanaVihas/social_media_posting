@@ -1,0 +1,62 @@
+2020-03-27 21:29:57,567 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 21:29:57,568 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 21:30:25,389 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 21:30:25,390 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 21:30:25,390 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=84fb31dd-67b2-4a93-8602-5c5d345f9638
+- device_id=android-8e51abc100ef0e36
+2020-03-27 21:30:25,391 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 21:30:26,653 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 21:30:27,497 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 21:30:27,506 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 21:30:27,506 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:30:33,984 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 21:30:33,985 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 21:30:33,985 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=84fb31dd-67b2-4a93-8602-5c5d345f9638
+- device_id=android-8e51abc100ef0e36
+2020-03-27 21:30:33,985 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 21:30:35,399 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 21:30:36,496 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 21:30:36,499 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 21:30:36,499 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:30:58,829 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 21:30:58,829 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 21:30:58,829 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=84fb31dd-67b2-4a93-8602-5c5d345f9638
+- device_id=android-8e51abc100ef0e36
+2020-03-27 21:30:58,829 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 21:31:00,383 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 21:31:01,421 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 21:31:01,430 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 21:31:01,430 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:04,475 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 21:33:04,477 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 21:33:04,477 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=84fb31dd-67b2-4a93-8602-5c5d345f9638
+- device_id=android-8e51abc100ef0e36
+2020-03-27 21:33:04,477 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 21:33:06,174 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 21:33:07,067 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 21:33:07,076 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 21:33:07,076 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:53,665 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:53,674 - instabot version: 0.116.0 (bot) - INFO - Total requests: 31
+2020-03-27 21:33:53,674 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:53,675 - instabot version: 0.116.0 (bot) - INFO - Total requests: 31
+2020-03-27 21:33:53,675 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:53,677 - instabot version: 0.116.0 (bot) - INFO - Total requests: 31
+2020-03-27 21:33:53,678 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 21:33:53,679 - instabot version: 0.116.0 (bot) - INFO - Total requests: 31

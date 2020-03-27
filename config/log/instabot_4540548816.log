@@ -1,0 +1,74 @@
+2020-03-27 21:37:27,238 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 21:37:27,239 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 21:37:27,240 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 21:37:28,122 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 21:37:29,125 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 21:37:29,793 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 21:37:30,799 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 21:37:31,648 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 21:37:31,648 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The username you entered doesn\'t appear to belong to an account. Please check your username and try again.", "invalid_credentials": true, "error_title": "Incorrect Username", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "invalid_user"}'
+2020-03-27 21:37:31,648 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 21:37:31,649 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The username you entered doesn't appear to belong to an account. Please check your username and try again.
+2020-03-27 21:37:31,649 - instabot version: 0.116.0 (api) - INFO - Error type: invalid_user
+2020-03-27 21:37:31,650 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 21:37:31,650 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 21:39:16,185 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 21:39:16,195 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 21:39:16,196 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 21:39:16,983 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 21:39:17,740 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 21:39:18,504 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 21:39:19,076 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 21:39:22,233 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 21:39:22,234 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for faan", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 21:39:22,234 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 21:39:22,234 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 21:39:22,235 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 21:39:22,235 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 21:39:22,236 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 21:41:20,107 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 21:41:20,109 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 21:41:20,110 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 21:41:21,181 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 21:41:22,163 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 21:41:22,927 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 21:41:23,569 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 21:41:28,564 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 21:41:28,564 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for sddsds", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 21:41:28,564 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 21:41:28,565 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 21:41:28,565 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 21:41:28,566 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 21:41:28,566 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 21:42:31,029 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 21:42:31,029 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 21:42:31,030 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 21:42:32,025 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 21:42:32,802 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 21:42:33,653 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 21:42:34,795 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 21:42:35,589 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 21:42:35,590 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Invalid Parameters", "status": "fail", "error_type": "missing_parameters"}'
+2020-03-27 21:42:35,590 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 21:42:35,591 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: Invalid Parameters
+2020-03-27 21:42:35,591 - instabot version: 0.116.0 (api) - INFO - Error type: missing_parameters
+2020-03-27 21:42:35,592 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 21:42:35,593 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 23:01:26,310 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:01:26,322 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:01:26,323 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 23:01:27,049 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 23:01:27,566 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 23:01:28,049 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 23:01:28,525 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 23:01:32,172 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 23:01:32,173 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for sddsds", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 23:01:32,173 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:01:32,174 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 23:01:32,175 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 23:01:32,176 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 23:01:32,177 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 23:01:46,172 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:01:46,181 - instabot version: 0.116.0 (bot) - INFO - Total requests: 33
+2020-03-27 23:01:46,182 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 23:01:46,183 - instabot version: 0.116.0 (bot) - INFO - Total requests: 33

@@ -1,0 +1,28 @@
+2020-03-27 23:22:49,187 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:22:49,188 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:22:49,189 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 23:22:49,618 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 23:22:49,986 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 23:22:50,326 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 23:22:50,666 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 23:22:53,477 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 23:22:53,477 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for hello", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 23:22:53,477 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:22:53,477 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 23:22:53,477 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 23:22:53,478 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 23:22:53,478 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 23:23:03,314 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 23:23:03,314 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 23:23:03,315 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 23:23:03,656 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 23:23:04,036 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 23:23:04,378 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 23:23:04,734 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 23:23:07,421 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 23:23:07,421 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for hello", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}'
+2020-03-27 23:23:07,421 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:23:07,421 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-27 23:23:07,421 - instabot version: 0.116.0 (api) - INFO - Error type: bad_password
+2020-03-27 23:23:07,422 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 23:23:07,422 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.

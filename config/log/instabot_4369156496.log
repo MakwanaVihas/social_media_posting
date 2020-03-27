@@ -1,0 +1,19 @@
+2020-03-28 03:13:29,451 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-28 03:13:29,451 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-28 03:13:36,604 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 03:13:36,605 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 03:13:36,605 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=fd3cc5f2-19ae-429c-9895-363fa16e051e
+- device_id=android-8e51abc100ef0e36
+2020-03-28 03:13:36,605 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-28 03:13:37,396 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 03:13:37,780 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 03:13:37,781 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-28 03:13:37,781 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:13:38,241 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:14:03,315 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-28 03:14:49,027 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-28 03:14:49,035 - instabot version: 0.116.0 (bot) - INFO - Total requests: 104

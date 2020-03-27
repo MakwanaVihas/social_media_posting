@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'twitter_posting',
     'facebook_posting',
     'base',
+    'instagram_photo',
     'sslserver'
 ]
 

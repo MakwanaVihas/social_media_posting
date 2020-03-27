@@ -1,0 +1,31 @@
+2020-03-27 20:43:52,530 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 20:43:52,530 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 20:43:52,531 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-27 20:43:52,999 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-27 20:43:54,430 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-27 20:43:54,831 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-27 20:43:55,299 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-27 20:43:55,711 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-27 20:43:55,711 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "The username you entered doesn\'t appear to belong to an account. Please check your username and try again.", "invalid_credentials": true, "error_title": "Incorrect Username", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "invalid_user"}'
+2020-03-27 20:43:55,711 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 20:43:55,711 - instabot version: 0.116.0 (api) - INFO - Instagram's error message: The username you entered doesn't appear to belong to an account. Please check your username and try again.
+2020-03-27 20:43:55,712 - instabot version: 0.116.0 (api) - INFO - Error type: invalid_user
+2020-03-27 20:43:55,712 - instabot version: 0.116.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-27 20:43:55,712 - instabot version: 0.116.0 (api) - INFO - Username or password is incorrect.
+2020-03-27 20:44:23,591 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 20:44:23,592 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-27 20:44:23,593 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 20:44:23,593 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 20:44:23,594 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=d3d31970-a72d-41a0-84f4-04bae70f3368
+- device_id=android-8e51abc100ef0e36
+2020-03-27 20:44:23,594 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 20:44:24,447 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 20:44:25,195 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 20:44:25,196 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-27 20:44:25,196 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 20:44:50,028 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/Downloads/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-27 20:44:50,030 - instabot version: 0.116.0 (bot) - INFO - Total requests: 31

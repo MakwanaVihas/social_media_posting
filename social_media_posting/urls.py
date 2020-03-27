@@ -22,7 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('twitter_posting.urls')),
     path('',include('facebook_posting.urls')),
-    path('',include('base.urls'))
+    path('',include('base.urls')),
+    path('',include('instagram_photo.urls'))
+
 ]
 if settings.DEBUG:
     urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
