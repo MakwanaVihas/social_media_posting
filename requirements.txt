@@ -11,3 +11,4 @@ facebook-sdk
 tzlocal
 django-sslserver
 oauth2
+Pillow
