@@ -14,8 +14,13 @@
    -  For running django server locally go to cmd and type:<br>
           ``` python manage.py runsslserver https://127.0.0.1:8000```<br> 
    -  For celery open another cmd window and cd into social_media_posting and run:<br>
+   - on windows:
           ```
           celery -A social_media_posting worker --pool=eventlet -l info
+          ```<br>
+   - on mac or linux:
+          ```
+          celery -A social_media_posting worker -l info
           ```<br>
    - **MAKE SURE RUN BOTH THESE COMMANDS PARALLELLY**<br>
    -  Then go to https://127.0.0.1:8000 and choose twitter and enter your account credentials and schedule a post.
