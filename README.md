@@ -48,15 +48,19 @@
    - **MAKE SURE RUN BOTH THESE COMMANDS PARALLELLY**<br>
    -  Then go to https://127.0.0.1:8000 and choose facebook and enter your account credentials and schedule a post.<br>
    -  **DO NOT TERMINATE OR CLOSE ANY TERMINAL WINDOWS**<br>
-   
-   
+### **For Instagram** 
+   - Start the app from terminal as usual:
+   - Go to https://127.0.0.1:8000 and choose login using instagram. And schedule the post as earlier.
+   - **DO NOT FORGET TO RUN CELERY COMMAND**<br>
+
  ## Details about my django project.<br>
    - All the requirements are mentioned in requirements.txt file.<br>
-   ### This django project contains three apps:<br>
+   ### This django project contains four apps:<br>
       - twitter_posting (for dealing with twitter scheduling)<br>
       - facebook_posting (for dealing with facebook scheduling)<br>
+      - instagram_photo (for dealing with instagram scheduling)<br>
       - base (which prove a bridge to connect both the apps and make it look on single app)<br>
-   
+
    
  ###  If you decide to use django-rest-fremework then go to https://127.0.0.1:8000/rest after setting up the app locally.<br>
       
