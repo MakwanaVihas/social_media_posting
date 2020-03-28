@@ -42,7 +42,7 @@
         {% endfor %}
           <script>
 
-            setInterval(function () {
+            $(function () {
 
                   console.log('ok');
                   $('#datetimepicker1').datetimepicker({
@@ -50,7 +50,7 @@
                         minDate :new Date(),
                         // format: 'DD/MM/YYYY H:mm:ss',
               });
-              },30);
+              });
           </script>
           <input type="submit" value="Submit">
           ok

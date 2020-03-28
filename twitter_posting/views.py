@@ -10,6 +10,7 @@ from rest_framework import status,renderers
 from .serializers import FileSchedularModelSerializer
 from . models import FileSchedularModel
 
+import json
 import os
 import urllib
 import twitter
@@ -27,8 +28,8 @@ request_token_url = 'https://api.twitter.com/oauth/request_token'
 access_token_url = 'https://api.twitter.com/oauth/access_token'
 authorize_url = 'https://api.twitter.com/oauth/authorize'
 
-consumer_key = "YOUR_KEY"
-consumer_secret = "YOUR_SECRET"
+consumer_key = "d1kNsEYaQ8gvjM13tTkLMWpjA"
+consumer_secret = "ixU5IBjYFMryzBiEHIvrfvcbTepTYZZESH8zTG36ou6l9InAvf"
 
 
 def login(request):
@@ -39,10 +40,13 @@ def login(request):
                                    "oauth_callback": request.build_absolute_uri(reverse("logged_in"))}))
     print(request.build_absolute_uri(reverse("logged_in")))
     # return HttpResponse(content)
-    request_token = dict(urllib.parse.parse_qsl(content))
-    oauth_token = request_token[b'oauth_token'].decode('utf-8')
-    oauth_token_secret = request_token[b'oauth_token_secret'].decode('utf-8')
-    request.session['oauth_token_secret'] = oauth_token_secret
+    try:
+        request_token = dict(urllib.parse.parse_qsl(content))
+        oauth_token = request_token[b'oauth_token'].decode('utf-8')
+        oauth_token_secret = request_token[b'oauth_token_secret'].decode('utf-8')
+        request.session['oauth_token_secret'] = oauth_token_secret
+    except KeyError:
+        return HttpResponse(content)
 
     return HttpResponseRedirect(authorize_url+"?oauth_token="+oauth_token)
 
