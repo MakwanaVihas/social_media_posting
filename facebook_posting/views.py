@@ -14,7 +14,7 @@ from rest_framework.decorators import action
 
 
 perms = ["manage_pages","publish_pages"]
-app_id = "YOUR_APP_ID"
+app_id = "2545738395649512"
 canvas_url = "https://127.0.0.1:8000/facebook/logged_in"
 
 def login(request):

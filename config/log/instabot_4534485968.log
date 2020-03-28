@@ -1,0 +1,20 @@
+2020-03-29 01:42:08,623 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 01:42:08,623 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-29 01:43:59,526 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 01:43:59,537 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-29 01:43:59,541 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-29 01:43:59,543 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-29 01:43:59,543 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=426905f5-f48b-48ae-ba11-dd22574d8cda
+- device_id=android-8e51abc100ef0e36
+2020-03-29 01:43:59,545 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-29 01:44:00,350 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-29 01:44:01,067 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-29 01:44:01,080 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-29 01:44:01,083 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-29 01:44:23,779 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-29 01:44:24,081 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-29 01:44:24,083 - instabot version: 0.116.0 (bot_photo) - INFO - Photo 'media/instagram/IMG_2026.jpeg' is uploaded.

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'facebook_posting',
     'base',
     'instagram_photo',
+    'instabot',
     'sslserver'
 ]
 

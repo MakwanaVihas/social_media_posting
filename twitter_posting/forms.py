@@ -40,9 +40,8 @@ class FileSchedularForm(forms.ModelForm):
 
 
             if file_field.name.endswith(".mov") or file_field.name.endswith(".MOV") or file_field.name.endswith(".MP4"):
-                os.rename(settings.MEDIA_ROOT+"/documents/"+file_field.name,settings.MEDIA_ROOT+"/documents/"+getFilename(file_field.name)+".mp4")
-                cleaned_data["file_field"] = open(settings.MEDIA_ROOT+"/documents/"+getFilename(file_field.name)+".mp4","rb")
-
+                file_field.name = getFilename(file_field.name)+".mp4"
+                
             if not (file_field.name.endswith(".jpg") or file_field.name.endswith(".jpeg") or file_field.name.endswith(".png") or file_field.name.endswith(".mp4")
                     or file_field.name.endswith(".JPG") or file_field.name.endswith(".JPEG") or file_field.name.endswith(".PNG") or file_field.name.endswith(".MP4")):
                 error = "Valid formats are .jpg, .jpeg, .png, .mp4, .mov"

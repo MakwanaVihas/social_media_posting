@@ -14,7 +14,7 @@ def upload_media_to_facebook(page_access_token,id,message=None,link=None,url=Non
             print(req.text)
             return req.json()
         elif url.endswith(".mp4") or url.endswith(".mov") or url.endswith(".MP4") or url.endswith(".MOV"):
-            req = requests.post("https://graph-video.facebook.com/{}/videos".format(str(id)),params={"access_token":page_access_token,"description":message},file={"file":open(url,"rb")})
+            req = requests.post("https://graph-video.facebook.com/{}/videos".format(str(id)),params={"access_token":page_access_token,"description":message},files={"file":open(url,"rb")})
             return req.json()
 
     elif link:

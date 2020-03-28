@@ -1,0 +1,26 @@
+2020-03-29 01:06:56,062 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 01:06:56,062 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-03-29 01:07:18,706 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-29 01:07:18,707 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-29 01:07:18,707 - instabot version: 0.116.0 (api_login) - INFO - Recovery from /Users/Darshini/social_media_posting/config/faaaanTESTic_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=25583937-87c6-4857-828f-0ba8320d3639
+- uuid=d93a6e36-ac5e-4c7d-b154-2f2820f22406
+- client_session_id=70c51e94-187b-4102-a151-cf181b7569bf
+- device_id=android-8e51abc100ef0e36
+2020-03-29 01:07:18,707 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-29 01:07:19,542 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-29 01:07:20,701 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-29 01:07:21,016 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 01:07:21,322 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 01:07:21,641 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-29 01:07:22,011 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-29 01:07:22,477 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-29 01:07:23,801 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-29 01:07:24,142 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-29 01:07:24,154 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'faaaanTESTic'!
+2020-03-29 01:07:24,154 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/Darshini/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-29 01:07:24,632 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-29 01:07:32,028 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/32170766699/?max_id=&min_timestamp=None&rank_token=32170766699_d93a6e36-ac5e-4c7d-b154-2f2820f22406&ranked_content=true returned response: <Response [200]>
+2020-03-29 01:09:05,011 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/Darshini/social_media_posting/config/faaaanTESTic.checkpoint
+2020-03-29 01:09:05,013 - instabot version: 0.116.0 (bot) - INFO - Total requests: 169

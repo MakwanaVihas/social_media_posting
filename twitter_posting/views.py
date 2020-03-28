@@ -113,12 +113,14 @@ def upload_media(request):
             delta = current_ - datetime.datetime.now()
             delta = datetime.datetime.utcnow()+delta
 
-            fs = form.cleaned_data['file_field']
+
             url_ = None if form.cleaned_data['url_field']=="" else form.cleaned_data['url_field']
             tweet_ = None if form.cleaned_data['text_field']=="" else form.cleaned_data['text_field']
             form.save()
+
+            fs = form.cleaned_data['file_field']
+
             if fs:
-                fs.name = fs.name.replace(" ","_")
                 upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],fs.name,url_,tweet_),eta=delta)
             else:
                 upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],None,url_,tweet_),eta=delta)
@@ -170,10 +172,7 @@ class FileSchedularViewSet(ModelViewSet):
             url_ = None if serializer.data['url_field']=="" else serializer.data['url_field']
             tweet_ = None if serializer.data['text_field']=="" else serializer.data['text_field']
 
-            if fs:
-                fs.name = fs.name.replace(" ","_")
-                upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],fs.name,url_,tweet_),eta=delta)
-            else:
-                upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],None,url_,tweet_),eta=delta)
-
         return super().create(request)
+
+def getFilename(name):
+    return os.path.splitext(name)[0]

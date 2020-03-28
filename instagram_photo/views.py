@@ -26,7 +26,9 @@ def logged_in(request):
         try:
             print(request.POST["username"],request.POST["password"])
             bot.login(username = request.POST["username"],password = request.POST["password"])
-            print("ok")
+            request.session["username"] = request.POST["username"]
+            request.session["password"] = request.POST["password"]
+
             return HttpResponseRedirect(reverse("upload_insta"))
 
         except SystemExit:
@@ -35,7 +37,13 @@ def logged_in(request):
         return redirect('/insta/login')
 
 def log_out_insta(request):
-    bot.logout()
+    try:
+        bot.logout()
+        if "username" in request.session.keys(): del request.session["username"]
+        if "password" in request.session.keys(): del request.session["password"]
+    except AttributeError:
+        pass
+
     return redirect('/insta/login')
 
 def upload_insta(request):
@@ -57,11 +65,10 @@ def upload_insta(request):
             delta = datetime.datetime.utcnow()+delta
 
             file_ = form.cleaned_data["file_field"]
-            url_ = form.cleaned_data["url_field"]
-            text_ = form.cleaned_data["text_field"]
+            caption = None if form.cleaned_data['text_field']=="" else form.cleaned_data['text_field']
             form.save()
 
-            upload_media_to_insta.apply_async(args=(bot,file_.name.replace(" ","_"),caption),eta=delta)
+            upload_media_to_insta.apply_async(args=(request.session["username"],request.session["password"],file_.name.replace(" ","_"),caption),eta=delta)
         else:
             return render(request,"form.html",context={"form":form})
 

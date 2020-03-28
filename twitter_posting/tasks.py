@@ -9,9 +9,9 @@ import os
 def upload_media_to_twitter(consumer_key, consumer_secret,real_oauth_token,real_oauth_token_secret,file_name=None,attachment_url=None,status=None):
     if file_name:
         api = twitter.Api(consumer_key, consumer_secret,real_oauth_token, real_oauth_token_secret)
-        status = status if status else " "
+        status = status+" {}".format(attachment_url) if status else " "
         print(status)
-        api.PostUpdate(status,media=open(settings.MEDIA_URL+"documents/"+file_name,"rb"),attachment_url=attachment_url)
+        api.PostUpdate(status,media=open(settings.MEDIA_URL+"documents/"+file_name,"rb"))
         if os.path.exists(settings.MEDIA_ROOT+"/documents/"+file_name):
             os.remove(settings.MEDIA_ROOT+"/documents/"+file_name)
     else:
