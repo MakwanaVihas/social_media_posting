@@ -121,6 +121,7 @@ def upload_media(request):
             fs = form.cleaned_data['file_field']
 
             if fs:
+                fs.name = fs.name.replace(" ","_")
                 upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],fs.name,url_,tweet_),eta=delta)
             else:
                 upload_media_to_twitter.apply_async(args=(consumer_key,consumer_secret,request.session["real_oauth_token"],request.session["real_oauth_token_secret"],None,url_,tweet_),eta=delta)
